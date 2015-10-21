@@ -1,0 +1,39 @@
+
+
+@import "fonts";
+@import "font-awesome/font-awesome";
+@import "bootstrap";
+@import "../js/vendor/slick/slick";
+
+
+@import "header";
+
+
+
+
+/* Base styles
+   ========================= */
+
+.container {
+    position: relative;
+    @include clearfix();
+}
+
+
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+p {
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
