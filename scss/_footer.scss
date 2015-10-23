@@ -1,0 +1,123 @@
+.footer {
+	color: #738494;
+	background: #cfe6fa;
+
+	.footer__form {
+		padding: 20px 0 30px 0;
+
+		.footer__form_title {
+			color: #0d80e6;
+			font-size: 18px;
+			line-height: 20px;
+			margin-bottom: 18px;
+			text-transform: uppercase;
+		}
+
+		.form-control {
+			color: #738494;
+			font-size: 16px;
+			border: 1px solid #fff;
+			@include box-shadow(none);
+
+			&:focus {
+				color: #0d80e6;
+			}
+		}
+
+		textarea.form-control {
+			height: 150px;
+		}
+
+		.btn {
+			margin-top: 20px;
+			padding-left: 55px;
+			padding-right: 55px;
+		}
+	}
+
+	#map {
+		height: 440px;
+	}
+
+	.col-sm-6 {
+		position: relative;
+	}
+
+
+	.footer__address {
+		left: 10px;
+		right: 10px;
+		color: #fff;
+		bottom: 70px;
+		font-size: 14px;
+		padding: 20px 10px;
+		position: absolute;
+		text-align: center;
+		background: rgba(13,128,230, .7);
+
+		p {
+			margin-bottom: 0;
+		}
+
+		.footer__social {
+			padding: 0;
+			font-size: 0;
+			line-height: 0;
+			list-style: none;
+			margin: 10px 0 0 0;
+			text-align: center;
+
+			li {
+				width: 37px;
+				height: 37px;
+				margin: 0 5px;
+				display: inline-block;
+			}
+
+			a {
+				width: 100%;
+				height: 100%;
+				display: inline-block;
+				background: url("../img/sprite.png") no-repeat;
+
+				&.facebook {
+					background-position: -37px 0;
+				}
+
+				&.vkontakte {
+					background-position: -37px -37px;
+				}
+
+				&.instagram {
+					background-position: -37px -74px;
+				}
+			}
+		}
+	}
+
+
+	@media (min-width: $screen-sm-min) {
+
+		.footer__form {
+			padding: 20px 20px 35px 0;
+		}
+
+		.footer__address {
+			font-size: 18px;
+		}
+	}
+
+	@media (min-width: $screen-md-min) {
+
+		.footer__form {
+			padding: 20px 20px 35px 0;
+		}
+	}
+
+	@media (min-width: $screen-lg-min) {
+
+		.footer__form {
+			padding: 20px 40px 35px 25px;
+		}
+	}
+}

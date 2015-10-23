@@ -6,7 +6,14 @@
 @import "../js/vendor/slick/slick";
 
 
+@import "form";
+
 @import "header";
+@import "footer";
+@import "reply";
+@import "showcase";
+@import "advantage";
+
 
 
 
@@ -15,16 +22,60 @@
    ========================= */
 
 .container {
-    position: relative;
     @include clearfix();
 }
 
+// Pagination
+
+.pagination {
+    margin: 0;
+    padding-bottom: 20px;
+
+    > li {
+
+        > a {
+            color: #97acbf;
+            font-size: 16px;
+            border-color: transparent;
+        }
+
+        &.prev a,
+        &.next a,
+        &:first-child a,
+        &:last-child a {
+            color: #0d80e6;
+        }
+    }
+
+    .active > a,
+    > .active > span {
+        &,
+        &:hover,
+        &:focus {
+            z-index: 2;
+            color: #0d80e6;
+            background-color: transparent;
+            border-color: transparent;
+            cursor: default;
+        }
+    }
+}
+
+.content {
+    margin-bottom: 50px;
+}
 
 
 h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
     font-weight: 400;
+}
+
+h1{
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 15px;
 }
 
 p {
@@ -36,4 +87,36 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+
+.btn-default {
+
+    &:hover,
+    &:focus,
+    &.focus {
+        background: #eaf3fb !important;
+    }
+
+}
+
+.btn-primary {
+
+    &:hover,
+    &:focus,
+    &.focus {
+        color: #0d80e6;
+        background: #fff !important;
+        border-color: #0d80e6 !important;
+    }
+
+}
+
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .btn-primary.dropdown-toggle {
+    color: #0d80e6;
+    background: #fff;
+    border-color: #0d80e6 !important;
 }

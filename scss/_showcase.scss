@@ -1,0 +1,159 @@
+.filter {
+	padding-bottom: 10px;
+
+	.form-control {
+		height: 62px;
+		color: #7f92a3;
+		font-size: 16px;
+		padding: 19px 20px;
+		border-color: #b6c8d8;
+		margin-bottom: 20px;
+
+		&:focus {
+			color: #0d80e6;
+			border-color: #0d80e6;
+			@include box-shadow(none);
+		}
+	}
+
+	select.form-control {
+		padding-right: 48px;
+		background: #fff url("../img/select_arrow.png") 100% 50% no-repeat;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		text-indent: 0.01px;
+		text-overflow: '';
+		-ms-appearance: none;
+		appearance: none!important;
+
+		::-ms-expand {
+			display: none;
+		}
+	}
+
+	.btn {
+		width: 60px;
+		height: 60px;
+		padding: 20px 5px;
+	}
+
+	.btn-group {
+		margin-bottom: 20px;
+	}
+}
+
+.showcase {
+	padding: 0;
+	list-style: none;
+	margin: 0 -9px 50px -9px;
+
+
+	.showcase__thumb {
+		padding: 10px 15px;
+		position: relative;
+		border: 1px solid #b6c8d8;
+
+		.showcase__text {
+			left: 0;
+			right: 0;
+			bottom: 0;
+			height: 50px;
+			position: absolute;
+			background: rgba(255,255,255, .8);
+
+			label {
+				color: #0d80e6;
+				display: block;
+				font-size: 13px;
+				font-weight: 400;
+				margin-bottom: 10px;
+			}
+		}
+
+		.showcase__price {
+			height: 50px;
+			padding: 10px;
+			color: #0d80e6;
+			font-size: 20px;
+			line-height: 30px;
+			text-align: center;
+			background: rgba(221,232,249, .5);
+		}
+
+		.showcase__order {
+			width: 100%;
+			height: 100%;
+			display: none;
+			position: relative;
+
+			.showcase__button {
+				left: 0;
+				right: 0;
+				bottom: 0;
+				text-align: center;
+				position: absolute;
+			}
+		}
+
+		&:hover {
+			.showcase__text {
+				height: 100%;
+				padding: 25px 12px 10px 12px;
+
+				.showcase__price {
+					display: none;
+				}
+
+				.showcase__order {
+					display: block;
+				}
+			}
+		}
+	}
+
+	.showcase__title {
+		width: 100%;
+		height: 60px;
+		display: table;
+		color: #738494;
+		font-size: 14px;
+		line-height: 18px;
+		
+		span {
+			height: 60px;
+			display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+		}
+	}
+
+
+	li {
+		max-width: 260px;
+		padding: 0 9px;
+		margin: 0 auto 10px auto;
+	}
+
+	@media (min-width: $screen-sm-min) {
+
+		li {
+			float: left;
+			width: 33.33%;
+			margin: 0 0 10px 0;
+		}
+	}
+
+	@media (min-width: $screen-md-min) {
+
+		li {
+			width: 25%;
+		}
+	}
+
+	@media (min-width: $screen-lg-min) {
+
+		li {
+			width: 20%;
+		}
+	}
+}
