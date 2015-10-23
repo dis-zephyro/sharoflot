@@ -14,7 +14,7 @@
             <div class="container">
 
                 <!-- Showcase -->
-                <?php include('includes/showcase.php') ?>
+                <?php include('includes/show_case.php') ?>
                 <!-- Showcase End-->
 
                 <!-- Reply -->
