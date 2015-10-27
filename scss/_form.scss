@@ -68,3 +68,97 @@
 	}
 }
 
+.popup {
+	width: 280px;
+	padding: 30px;
+	text-align: center;
+
+	.popup__title {
+		color: #0d80e6;
+		font-size: 16px;
+		margin-bottom: 15px;
+		text-transform: uppercase;
+	}
+
+	.btn {
+		width: 100%;
+	}
+
+	.form-control {
+		text-align: center;
+	}
+}
+
+.form-control {
+
+	&:focus {
+		border-color: #0d80e6;
+		@include box-shadow(none);
+	}
+}
+
+.select-main {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+
+	.select-main-link {
+		width: 100%;
+		height: 62px;
+		color: #7f92a3;
+		font-size: 16px;
+		cursor: pointer;
+		text-transform: uppercase;
+		border: 1px solid #b6c8d8;
+		display: inline-block;
+		padding: 19px 48px 19px 20px;
+		background: #fff url("../img/select_arrow.png") 100% 50% no-repeat;
+
+		&:hover {
+			color: #0d80e6;
+			border-color: #0d80e6;
+		}
+	}
+}
+
+.ik_select_dropdown {
+
+	.ik_select_list_inner {
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			border: 1px solid #b6c8d8;
+
+			li {
+				color: #7f92a3;
+				font-size: 14px;
+				line-height: 20px;
+				cursor: pointer;
+				padding: 12px 20px;
+				background: #fff;
+				text-transform: uppercase;
+
+				&:hover {
+					color: #fff;
+					background: #0d80e6;
+				}
+			}
+		}
+	}
+}
+
+.popup__close {
+	width: 36px;
+	height: 36px;
+	top: -18px;
+	right: -18px;
+	color: #0d80e6;
+	line-height: 30px;
+	position: absolute;
+	text-align: center;
+	background: #fff;
+	border: 3px solid #0d80e6;
+	@include border-radius(50%);
+}

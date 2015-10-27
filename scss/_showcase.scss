@@ -15,7 +15,7 @@
 			@include box-shadow(none);
 		}
 	}
-
+	.ik_select.form-control,
 	select.form-control {
 		padding-right: 48px;
 		background: #fff url("../img/select_arrow.png") 100% 50% no-repeat;

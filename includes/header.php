@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <a href="№" class="header__logo">
+            <a href="#enter" class="header__logo btn-modal">
                 <img class="img-responsive" src="img/logo.png" alt="Шарофлот - Быстрая доставка воздушных шаров">
                 <span>Вход</span>
             </a>

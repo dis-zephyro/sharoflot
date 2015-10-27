@@ -30,6 +30,14 @@ $('.reply__nav.next').click(function(){
 $(".showcase input[type='radio']").ionCheckRadio();
 
 
+$(".btn-modal").fancybox({
+    'padding'    : 0,
+    'tpl'        : {
+        closeBtn : '<a title="Close" class="popup__close" href="javascript:;"><i class="fa fa-times"></i></a>'
+    }
+});
+
+
 // Map
 
 ymaps.ready(init);
@@ -57,3 +65,18 @@ function init(){
     myMap.behaviors.disable('multiTouch');
     myMap.geoObjects.add(myPlacemark);
 }
+
+
+$(function () {
+    $('.select-style').ikSelect({
+        autoWidth: false,
+        ddFullWidth: false,
+        dynamicWidth: false,
+        equalWidths: true,
+        extractLink: false,
+        linkCustomClass: '',
+        ddCustomClass: '',
+        filter: false,
+        customClass: 'select-main'
+    });
+});

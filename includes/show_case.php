@@ -7,7 +7,7 @@
                 <option value="Зритель">Зритель</option>
             </select>
         </div>
-        <div class="hidden-xs hidden-sm col-md-3 text-center">
+        <div class="hidden-xs hidden-sm col-md-3 text-right">
             <div class="btn-group" data-toggle="buttons">
                 <label class="btn btn-primary">
                     <input type="radio" name="options" id="option1"> 25

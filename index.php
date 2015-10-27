@@ -91,7 +91,7 @@
 
                 <!-- Advantage -->
                 <div class="advantage">
-                    <div class="advantage__head"></div>
+                    <div class="advantage__head">Наши преимущества</div>
                     <ul class="clearfix">
                         <li>
                             <div class="advantage__title">
@@ -125,6 +125,48 @@
         <!-- Footer -->
         <?php include('includes/footer.php') ?>
         <!-- Footer End-->
+
+        <div class="hide">
+
+            <!-- Login Form -->
+            <div class="popup" id="enter">
+                <div class="popup__title">Личный кабинет</div>
+                <form class="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Логин">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="pass" placeholder="Пароль">
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-5">
+                                <button type="submit" class="btn btn-default btn-sm">Войти</button>
+                            </div>
+                            <div class="col-xs-7">
+                                <a href="#forgot" class="btn btn-primary btn-sm btn-modal">забыли пароль?</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="link-social">Войти через соц. сети</a>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Login Form -->
+            <div class="popup" id="forgot">
+                <div class="popup__title">Восстановление пароля</div>
+                <form class="form">
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" placeholder="Укажите e-mail">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-default">Выслать данные</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </body>
 
 </html>
