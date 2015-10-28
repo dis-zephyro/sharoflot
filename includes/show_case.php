@@ -2,14 +2,14 @@
     <div class="row">
         <div class="col-sm-4 col-md-4">
             <select class="form-control select-style">
-                <option selected value="Спонсор">Спонсор</option>
-                <option value="Участник">Участник</option>
-                <option value="Зритель">Зритель</option>
+                <option selected value="Спонсор">Хиты продаж</option>
+                <option value="Участник">Хиты продаж</option>
+                <option value="Зритель">Хиты продаж</option>
             </select>
         </div>
         <div class="hidden-xs hidden-sm col-md-3 text-right">
             <div class="btn-group" data-toggle="buttons">
-                <label class="btn btn-primary">
+                <label class="btn btn-primary active">
                     <input type="radio" name="options" id="option1"> 25
                 </label>
                 <label class="btn btn-primary">
@@ -24,11 +24,11 @@
             <div class="row">
                 <div class="col-sx-5 col-sm-5 col-md-5 text-center">
                     <div class="btn-group" data-toggle="buttons">
-                        <label class="btn btn-primary">
+                        <label class="btn btn-primary btn-icon active">
                             <input type="radio" name="options" id="option1">
                             <i class="fa fa-th-large"></i>
                         </label>
-                        <label class="btn btn-primary">
+                        <label class="btn btn-primary btn-icon">
                             <input type="radio" name="options" id="option2">
                             <i class="fa fa-align-justify"></i>
                         </label>
@@ -80,7 +80,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -117,7 +119,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -154,7 +158,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -191,7 +197,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -228,7 +236,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -265,7 +275,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -302,7 +314,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -339,7 +353,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -376,7 +392,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -413,7 +431,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -450,7 +470,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -487,7 +509,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -524,7 +548,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -561,7 +587,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -598,7 +626,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -635,7 +665,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -672,7 +704,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -709,7 +743,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -746,7 +782,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 
@@ -783,7 +821,9 @@
             </div>
         </div>
         <div class="showcase__title">
-            <span>Букет шаров на день рождения любимого человека</span>
+            <span>
+                <a href="#">Букет шаров на день рождения любимого человека</a>
+            </span>
         </div>
     </li>
 </ul>

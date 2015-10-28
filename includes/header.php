@@ -5,13 +5,13 @@
                 <div class="hidden-xs col-sm-6 col-md-6 col-lg-4">
                     <ul class="header__link clearfix">
                         <li class="hidden-sm">
-                            <a class="header-location" href="#"></a>
+                            <a class="header-location" href="#" data-toggle="tooltip" data-placement="bottom" title="Город"></a>
                         </li>
                         <li class="hidden-sm">
-                            <a class="header-delivery" href="#"></a>
+                            <a class="header-delivery" href="#" data-toggle="tooltip" data-placement="bottom" title="Доставка"></a>
                         </li>
                         <li class="hidden-sm">
-                            <a class="header-action" href="#"></a>
+                            <a class="header-action" href="#" data-toggle="tooltip" data-placement="bottom" title="Акции"></a>
                         </li>
                         <li class="drop-basket">
                             <span class="header-basket">3799 руб.</span>
@@ -54,10 +54,10 @@
                     </div>
                 </div>
             </div>
-            <a href="#enter" class="header__logo btn-modal">
+            <div class="header__logo">
                 <img class="img-responsive" src="img/logo.png" alt="Шарофлот - Быстрая доставка воздушных шаров">
-                <span>Вход</span>
-            </a>
+                <a class="btn-modal" href="#enter">Вход</a>
+            </div>
         </div>
     </div>
     <nav class="header__nav">
@@ -73,7 +73,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                        <a href="#">Каталог <b class="caret hidden-xs"></b></a>
+                        <a href="#">Каталог</a>
                         <!-- Drop nav -->
                         <div class="drop-menu">
                             <div class="container">

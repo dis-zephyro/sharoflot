@@ -13,6 +13,7 @@
 }
 
 .icr-text {
+	cursor: pointer;
 	display: inline;
 	vertical-align: middle;
 }
@@ -20,6 +21,7 @@
 .icr-item {
 	width: 19px;
 	height: 19px;
+	cursor: pointer;
 	margin-right: 10px;
 	position: relative;
 	display: inline-block;
@@ -44,6 +46,7 @@
 }
 
 .icr-label {
+	cursor: pointer;
 	position: relative;
 
 	&.checked {
@@ -69,8 +72,8 @@
 }
 
 .popup {
-	width: 280px;
-	padding: 30px;
+	width: 240px;
+	padding: 20px;
 	text-align: center;
 
 	.popup__title {
@@ -85,6 +88,13 @@
 	}
 
 	.form-control {
+		text-align: center;
+	}
+
+	@media (min-width: $screen-sm-min) {
+
+		width: 360px;
+		padding: 30px;
 		text-align: center;
 	}
 }

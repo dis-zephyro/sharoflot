@@ -36,7 +36,8 @@
         > a {
             color: #97acbf;
             font-size: 16px;
-            border-color: transparent;
+            background-color: transparent !important;
+            border-color: transparent !important;
 
             &:hover {
                 border-color: transparent;
@@ -59,8 +60,8 @@
         &:focus {
             z-index: 2;
             color: #0d80e6;
-            background-color: transparent;
-            border-color: transparent;
+            background-color: transparent !important;
+            border-color: transparent !important;
             cursor: default;
         }
     }
@@ -100,7 +101,9 @@ nav ul {
     &:hover,
     &:focus,
     &.focus {
-        background: #eaf3fb !important;
+        color: #fff !important;
+        border-color: #0d80e6 !important;
+        background: #0d80e6 !important;
     }
 
 }
@@ -110,11 +113,21 @@ nav ul {
     &:hover,
     &:focus,
     &.focus {
-        color: #0d80e6;
-        background: #fff !important;
+        color: #fff !important;
         border-color: #0d80e6 !important;
+        background: #0d80e6 !important;
     }
 
+    &.active,
+    &:active {
+        @include box-shadow(none !important);
+    }
+
+
+    &.btn-icon {
+        padding: 13px 5px;
+        font-size: 24px;
+    }
 }
 
 
@@ -125,3 +138,5 @@ nav ul {
     background: #fff;
     border-color: #0d80e6 !important;
 }
+
+

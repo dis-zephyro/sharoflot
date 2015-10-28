@@ -80,3 +80,8 @@ $(function () {
         customClass: 'select-main'
     });
 });
+
+
+$('.header-location').tooltip();
+$('.header-action').tooltip();
+$('.header-delivery').tooltip();
