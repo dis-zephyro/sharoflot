@@ -26,11 +26,13 @@
                     <div class="btn-group" data-toggle="buttons">
                         <label class="btn btn-primary btn-icon active">
                             <input type="radio" name="options" id="option1">
-                            <i class="fa fa-th-large"></i>
+                            <span class="glyphicon glyphicon-th-large"></span>
                         </label>
                         <label class="btn btn-primary btn-icon">
                             <input type="radio" name="options" id="option2">
-                            <i class="fa fa-align-justify"></i>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
                         </label>
                     </div>
                 </div>

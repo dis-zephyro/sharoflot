@@ -1,20 +1,24 @@
 <header class="header">
     <div class="header__top">
         <div class="container">
+            <div class="header__logo">
+                <img class="img-responsive" src="img/logo.png" alt="Шарофлот - Быстрая доставка воздушных шаров">
+                <a class="btn-modal hidden-xs" href="#enter">Вход</a>
+            </div>
             <div class="row">
-                <div class="hidden-xs col-sm-6 col-md-6 col-lg-4">
+                <div class="col-sm-6 col-md-6 col-lg-4">
                     <ul class="header__link clearfix">
-                        <li class="hidden-sm">
+                        <li>
                             <a class="header-location" href="#" data-toggle="tooltip" data-placement="bottom" title="Город"></a>
                         </li>
-                        <li class="hidden-sm">
+                        <li>
                             <a class="header-delivery" href="#" data-toggle="tooltip" data-placement="bottom" title="Доставка"></a>
                         </li>
-                        <li class="hidden-sm">
+                        <li>
                             <a class="header-action" href="#" data-toggle="tooltip" data-placement="bottom" title="Акции"></a>
                         </li>
                         <li class="drop-basket">
-                            <span class="header-basket">3799 руб.</span>
+                            <a href="#" class="header-basket"><span class="hidden-xs hidden-sm">3799 руб.</span></a>
                             <div class="mini-basket">
                                 <div class="mini-basket-inner">
                                     <form>
@@ -60,15 +64,12 @@
                     </div>
                 </div>
             </div>
-            <div class="header__logo">
-                <img class="img-responsive" src="img/logo.png" alt="Шарофлот - Быстрая доставка воздушных шаров">
-                <a class="btn-modal" href="#enter">Вход</a>
-            </div>
         </div>
     </div>
     <nav class="header__nav">
         <div class="container">
             <div class="navbar-header">
+                <a class="btn-enter-xs btn-modal pull-left" href="#enter">Вход</a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>

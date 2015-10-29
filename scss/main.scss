@@ -119,20 +119,51 @@ nav ul {
     &:hover,
     &:focus,
     &.focus {
-        color: #fff !important;
+        color: #0d80e6 !important;
         border-color: #0d80e6 !important;
-        background: #0d80e6 !important;
+        background: #fff;
+
+        &.btn-icon {
+
+            .icon-bar {
+                background: #0d80e6;
+            }
+        }
     }
 
     &.active,
     &:active {
+        background: #fff;
         @include box-shadow(none !important);
+
+        &:hover,
+        &:focus,
+        &.focus {
+            background: #fff;
+        }
+
+        &.btn-icon {
+
+            .icon-bar {
+                background: #0d80e6;
+            }
+        }
     }
 
 
     &.btn-icon {
-        padding: 13px 5px;
-        font-size: 24px;
+        padding: 15px 5px;
+        font-size: 28px;
+        line-height: 28px;
+        text-align: center;
+
+        .icon-bar {
+            display: block;
+            width: 26px;
+            height: 6px;
+            background: #7f92a3;
+            margin: 0 auto 4px auto;
+        }
     }
 }
 

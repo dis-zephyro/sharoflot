@@ -104,6 +104,8 @@
 	&:focus {
 		border-color: #0d80e6;
 		@include box-shadow(none);
+
+		@include placeholder(transparent);
 	}
 }
 
@@ -183,6 +185,11 @@
 		border: none;
 		outline: none;
 		background: #fff;
+		text-align: center;
 
+	}
+
+	span {
+		cursor: pointer;
 	}
 }
