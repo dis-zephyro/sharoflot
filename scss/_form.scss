@@ -151,8 +151,8 @@
 				text-transform: uppercase;
 
 				&:hover {
-					color: #fff;
-					background: #0d80e6;
+					color: #0d80e6;
+					background: #fff;
 				}
 			}
 		}
@@ -171,4 +171,18 @@
 	background: #fff;
 	border: 3px solid #0d80e6;
 	@include border-radius(50%);
+}
+
+
+// number
+
+.number {
+
+	input {
+		width: 30px;
+		border: none;
+		outline: none;
+		background: #fff;
+
+	}
 }

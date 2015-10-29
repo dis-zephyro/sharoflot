@@ -33,13 +33,19 @@
 
     > li {
 
+
         > a {
             color: #97acbf;
             font-size: 16px;
             background-color: transparent !important;
             border-color: transparent !important;
 
+            &:visited {
+                color: #97acbf;
+            }
+
             &:hover {
+                color: #0d80e6;
                 border-color: transparent;
                 background-color: transparent;
             }

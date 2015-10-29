@@ -21,7 +21,13 @@
                                         <table class="basket__mt">
                                             <tr>
                                                 <td>Шары на День Рождения (75 шт)</td>
-                                                <td><i>+</i><span>1шт</span><i>+</i></td>
+                                                <td>
+                                                    <div class="number">
+                                                        <span class="minus">-</span>
+                                                        <input type="text" value="1"/>
+                                                        <span class="plus">+</span>
+                                                    </div>
+                                                </td>
                                             </tr>
                                         </table>
                                         <div class="text-center">
