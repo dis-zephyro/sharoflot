@@ -77,6 +77,7 @@ $(function () {
         linkCustomClass: '',
         ddCustomClass: '',
         filter: false,
+        ddMaxHeight: 300,
         customClass: 'select-main'
     });
 });

@@ -144,7 +144,7 @@
                                 <button type="submit" class="btn btn-default btn-sm">Войти</button>
                             </div>
                             <div class="col-xs-7">
-                                <a href="#forgot" class="btn btn-primary btn-sm btn-modal">забыли пароль?</a>
+                                <a href="#forgot" class="btn btn-primary btn-sm btn-modal">Забыли пароль?</a>
                             </div>
                         </div>
                     </div>

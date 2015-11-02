@@ -168,6 +168,14 @@
 			td {
 				padding: 3px 0;
 			}
+
+			.plus,
+			.minus {
+
+				&:hover {
+					color: $color-blue;
+				}
+			}
 		}
 	}
 }
@@ -438,7 +446,7 @@
 			text-decoration: none;
 
 			&:hover {
-				text-decoration: underline;
+				color: #0c80e5;
 			}
 		}
 	}

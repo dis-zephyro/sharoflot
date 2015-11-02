@@ -1,4 +1,7 @@
-
+$color-gray     :   #738494;
+$color-blue     :   #0c80e5;
+$color-light    :   #b7c8d8;
+$color-red      :   #ff415d;
 
 @import "fonts";
 @import "font-awesome/font-awesome";
@@ -35,40 +38,33 @@
 
 
         > a {
-            color: #97acbf;
+            color: #b7c8d8;
             font-size: 16px;
             background-color: transparent !important;
             border-color: transparent !important;
 
-            &:visited {
-                color: #97acbf;
-            }
-
             &:hover {
-                color: #0d80e6;
+                color: #0c80e5;
+                text-decoration: underline;
                 border-color: transparent;
                 background-color: transparent;
             }
+        }
+
+        &.active > a,
+        &.active > span {
+            color: $color-blue;
         }
 
         &.prev a,
         &.next a,
         &:first-child a,
         &:last-child a {
-            color: #0d80e6;
-        }
-    }
+            color: #b7c8d8;
 
-    .active > a,
-    > .active > span {
-        &,
-        &:hover,
-        &:focus {
-            z-index: 2;
-            color: #0d80e6;
-            background-color: transparent !important;
-            border-color: transparent !important;
-            cursor: default;
+            &:hover {
+                color: #0c80e5;
+            }
         }
     }
 }
@@ -101,6 +97,10 @@ nav ul {
     list-style: none;
 }
 
+.text-red {
+    color: #ff415d;
+}
+
 
 .btn-default {
 
@@ -108,8 +108,8 @@ nav ul {
     &:focus,
     &.focus {
         color: #fff !important;
-        border-color: #0d80e6 !important;
-        background: #0d80e6 !important;
+        border-color: $color-blue !important;
+        background: $color-blue !important;
     }
 
 }

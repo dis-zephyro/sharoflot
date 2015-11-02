@@ -28,7 +28,7 @@
 	vertical-align: middle;
 
 	&.type_radio {
-		border: 1px solid #0d80e6;
+		border: 1px solid $color-blue;
 		@include border-radius(50%);
 
 		&:before {
@@ -39,7 +39,7 @@
 			content: ' ';
 			display: none;
 			position: absolute;
-			background: #0d80e6;
+			background: $color-blue;
 			@include border-radius(50%);
 		}
 	}
@@ -120,6 +120,7 @@
 		color: #7f92a3;
 		font-size: 16px;
 		cursor: pointer;
+		white-space: nowrap;
 		text-transform: uppercase;
 		border: 1px solid #b6c8d8;
 		display: inline-block;
@@ -130,6 +131,10 @@
 			color: #0d80e6;
 			border-color: #0d80e6;
 		}
+	}
+
+	.ik_select_link_text {
+		overflow: hidden;
 	}
 }
 

@@ -9,13 +9,13 @@
                 <div class="col-sm-6 col-md-6 col-lg-4">
                     <ul class="header__link clearfix">
                         <li>
-                            <a class="header-location" href="#" data-toggle="tooltip" data-placement="bottom" title="Город"></a>
+                            <a class="header-location" href="#" data-toggle="tooltip" data-placement="bottom" title="Доставка товара"></a>
                         </li>
                         <li>
                             <a class="header-delivery" href="#" data-toggle="tooltip" data-placement="bottom" title="Доставка"></a>
                         </li>
                         <li>
-                            <a class="header-action" href="#" data-toggle="tooltip" data-placement="bottom" title="Акции"></a>
+                            <a class="header-action" href="#" data-toggle="tooltip" data-placement="bottom" title="Система скидок"></a>
                         </li>
                         <li class="drop-basket">
                             <a href="#" class="header-basket"><span class="hidden-xs hidden-sm">3799 руб.</span></a>

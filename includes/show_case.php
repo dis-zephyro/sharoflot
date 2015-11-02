@@ -3,8 +3,6 @@
         <div class="col-sm-4 col-md-4">
             <select class="form-control select-style">
                 <option selected value="Спонсор">Хиты продаж</option>
-                <option value="Участник">Хиты продаж</option>
-                <option value="Зритель">Хиты продаж</option>
             </select>
         </div>
         <div class="hidden-xs hidden-sm col-md-3 text-right">
@@ -50,7 +48,7 @@
 </div>
 <ul class="showcase">
     <li>
-        <div class="showcase__thumb">
+        <div class="showcase__thumb showcase__sale">
             <div class="showcase__image">
                 <img class="img-responsive" src="images/product01.jpg" alt="">
             </div>
@@ -78,7 +76,10 @@
                         </div>
                     </form>
                 </div>
-                <div class="showcase__price">1599 р.</div>
+                <div class="showcase__price">
+                    <span class="showcase__price-old">1799 р.</span>
+                    <span class="text-red">1599 р.</span>
+                </div>
             </div>
         </div>
         <div class="showcase__title">
@@ -833,8 +834,8 @@
     <ul class="pagination">
         <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
         <li class="prev hidden-xs"><a href="#">Предыдущая</a></li>
-        <li><a href="#">1</a></li>
-        <li class="active"><a href="#">2</a></li>
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
         <li><a href="#">3</a></li>
         <li><a href="#">4</a></li>
         <li><a href="#">5</a></li>
