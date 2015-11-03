@@ -105,3 +105,24 @@ $(document).ready(function() {
         return false;
     });
 });
+
+
+// scroll
+
+$('.btn-up').click(function(){
+    var str=$(this).attr('href');
+    $.scrollTo(str, 500, {offset:0 });
+    return false;
+});
+
+
+$(function() {
+    $(".btn-up").hide();
+    $(window).scroll(function() {
+        if($(this).scrollTop() > 200) {
+            $('.btn-up').fadeIn();
+        } else {
+            $('.btn-up').fadeOut();
+        }
+    });
+});

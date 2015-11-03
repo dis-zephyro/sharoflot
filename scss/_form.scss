@@ -184,9 +184,10 @@
 // number
 
 .number {
+	padding-left: 6px;
 
 	input {
-		width: 30px;
+		width: 20px;
 		border: none;
 		outline: none;
 		background: #fff;
@@ -196,5 +197,13 @@
 
 	span {
 		cursor: pointer;
+	}
+
+	.plus,
+	.minus {
+
+		&:hover {
+			color: $color-blue;
+		}
 	}
 }

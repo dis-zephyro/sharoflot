@@ -7555,14 +7555,19 @@ button.close {
   -ms-border-radius: 50%;
   border-radius: 50%; }
 
-.number input {
-  width: 30px;
-  border: none;
-  outline: none;
-  background: #fff;
-  text-align: center; }
-.number span {
-  cursor: pointer; }
+.number {
+  padding-left: 6px; }
+  .number input {
+    width: 20px;
+    border: none;
+    outline: none;
+    background: #fff;
+    text-align: center; }
+  .number span {
+    cursor: pointer; }
+  .number .plus:hover,
+  .number .minus:hover {
+    color: #0c80e5; }
 
 /* ---- Header ---- */
 .header {
@@ -7593,6 +7598,9 @@ button.close {
       position: absolute;
       color: #364552;
       text-decoration: none; }
+      .header__top .header__logo a:hover {
+        color: #364552;
+        text-decoration: underline; }
 
 .header__link {
   margin: 0 0 20px 0;
@@ -7664,7 +7672,7 @@ button.close {
     width: 374px;
     z-index: 200;
     display: none;
-    font-size: 16px;
+    font-size: 13px;
     padding-top: 20px;
     position: absolute;
     margin-left: -170px; }
@@ -7688,9 +7696,6 @@ button.close {
       border-collapse: collapse; }
       .header__link .mini-basket .basket__mt td {
         padding: 3px 0; }
-      .header__link .mini-basket .basket__mt .plus:hover,
-      .header__link .mini-basket .basket__mt .minus:hover {
-        color: #0c80e5; }
 
 .header__social {
   float: left;
@@ -7725,7 +7730,8 @@ button.close {
     color: #fe405b;
     font-size: 24px;
     font-weight: 500;
-    line-height: 30px; }
+    line-height: 30px;
+    text-decoration: none; }
   .header__contact .address {
     width: 220px;
     color: #738494;
@@ -8054,6 +8060,15 @@ button.close {
     .footer .footer__form {
       padding: 20px 40px 35px 25px; } }
 
+.btn-up {
+  top: 40%;
+  right: 20px;
+  width: 62px;
+  height: 62px;
+  position: fixed;
+  cursor: pointer;
+  background: url("../img/icon_up.png") 0 0 no-repeat; }
+
 .reply {
   margin-top: 40px;
   padding: 18px 50px;
@@ -8372,8 +8387,7 @@ button.close {
       text-decoration: underline;
       border-color: transparent;
       background-color: transparent; }
-  .pagination > li.active > a,
-  .pagination > li .active > span {
+  .pagination > li.active > a, .pagination > li.active > span {
     color: #0c80e5; }
   .pagination > li.prev a, .pagination > li.next a, .pagination > li:first-child a, .pagination > li:last-child a {
     color: #b7c8d8; }

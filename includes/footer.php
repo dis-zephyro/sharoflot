@@ -41,6 +41,7 @@
         </div>
     </div>
 </footer>
+<a href="#top" class="btn-up"></a>
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -48,6 +49,7 @@
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/vendor/slick/slick.min.js"></script>
 <script src="js/vendor/jquery.ikSelect.min.js"></script>
+<script src="js/vendor/jquery.scrollTo.min.js"></script>
 <script src="js/vendor/ion.checkRadio/ion.checkRadio.min.js"></script>
 <script src="js/vendor/jquery.fancybox/jquery.fancybox.pack.js"></script>
 <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>

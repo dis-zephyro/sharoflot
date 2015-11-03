@@ -5,7 +5,7 @@
         <?php include('includes/head.php') ?>
     </head>
 
-    <body>
+    <body id="top">
         <!-- Header -->
         <?php include('includes/header.php') ?>
         <!-- Header End-->

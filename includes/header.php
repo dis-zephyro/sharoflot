@@ -9,10 +9,10 @@
                 <div class="col-sm-6 col-md-6 col-lg-4">
                     <ul class="header__link clearfix">
                         <li>
-                            <a class="header-location" href="#" data-toggle="tooltip" data-placement="bottom" title="Доставка товара"></a>
+                            <a class="header-location" href="#" data-toggle="tooltip" data-placement="bottom" title="Контакты"></a>
                         </li>
                         <li>
-                            <a class="header-delivery" href="#" data-toggle="tooltip" data-placement="bottom" title="Доставка"></a>
+                            <a class="header-delivery" href="#" data-toggle="tooltip" data-placement="bottom" title="Доставка товара"></a>
                         </li>
                         <li>
                             <a class="header-action" href="#" data-toggle="tooltip" data-placement="bottom" title="Система скидок"></a>
@@ -27,15 +27,15 @@
                                                 <td>Шары на День Рождения (75 шт)</td>
                                                 <td>
                                                     <div class="number">
-                                                        <span class="minus">-</span>
+                                                        <span class="minus"><span class="glyphicon glyphicon-minus-sign"></span></span>
                                                         <input type="text" value="1"/>
-                                                        <span class="plus">+</span>
+                                                        <span class="plus"><span class="glyphicon glyphicon-plus-sign"></span></span>
                                                     </div>
                                                 </td>
                                             </tr>
                                         </table>
                                         <div class="text-center">
-                                            <button type="submit" class="btn btn-default">оформить заказ</button>
+                                            <button type="submit" class="btn btn-default">Оформить заказ</button>
                                         </div>
                                     </form>
                                 </div>
@@ -57,7 +57,7 @@
                             </li>
                         </ul>
                         <div class="header__contact">
-                            <div class="header-tel">+7 (495) 778-24-42</div>
+                            <a href="tel:+7 (495) 778-24-42" class="header-tel">+7 (495) 778-24-42</a>
                             <div class="header-address"> Павелецкая, ул, Дербеневская
                                 д.20, стр.12</div>
                         </div>

@@ -37,6 +37,11 @@
 			position: absolute;
 			color: #364552;
 			text-decoration: none;
+
+			&:hover {
+				color: #364552;
+				text-decoration: underline;
+			}
 		}
 	}
 }
@@ -137,7 +142,7 @@
 		width: 374px;
 		z-index: 200;
 		display: none;
-		font-size: 16px;
+		font-size: 13px;
 		padding-top: 20px;
 		position: absolute;
 		margin-left: -170px;
@@ -167,14 +172,6 @@
 
 			td {
 				padding: 3px 0;
-			}
-
-			.plus,
-			.minus {
-
-				&:hover {
-					color: $color-blue;
-				}
 			}
 		}
 	}
@@ -226,6 +223,7 @@
 		font-size: 24px;
 		font-weight: 500;
 		line-height: 30px;
+		text-decoration: none;
 	}
 
 	.address {
