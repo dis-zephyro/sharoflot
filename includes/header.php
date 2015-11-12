@@ -2,8 +2,10 @@
     <div class="header__top">
         <div class="container">
             <div class="header__logo">
-                <img class="img-responsive" src="img/logo.png" alt="Шарофлот - Быстрая доставка воздушных шаров">
-                <a class="btn-modal hidden-xs" href="#enter">Вход</a>
+                <img class="header__logo_img img-responsive" src="img/logo.png" alt="Шарофлот - Быстрая доставка воздушных шаров">
+                <a class="btn-modal hidden-xs" href="#enter">
+                    <img class="img-responsive" src="img/icon_user.png" alt="">
+                </a>
             </div>
             <div class="row">
                 <div class="col-sm-6 col-md-6 col-lg-4">
@@ -27,9 +29,9 @@
                                                 <td>Шары на День Рождения (75 шт)</td>
                                                 <td>
                                                     <div class="number">
-                                                        <span class="minus"><span class="glyphicon glyphicon-minus-sign"></span></span>
+                                                        <span class="minus">&mdash;</span>
                                                         <input type="text" value="1"/>
-                                                        <span class="plus"><span class="glyphicon glyphicon-plus-sign"></span></span>
+                                                        <span class="plus">+</span>
                                                     </div>
                                                 </td>
                                             </tr>

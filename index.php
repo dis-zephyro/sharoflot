@@ -91,25 +91,35 @@
 
                 <!-- Advantage -->
                 <div class="advantage">
-                    <div class="advantage__head">Наши преимущества</div>
-                    <ul class="clearfix">
-                        <li>
-                            <div class="advantage__title">
-                                <span></span>
+                    <div class="advantage__head">ПОЧЕМУ СТОИТ РАБОТАТЬ С НАМИ</div>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-3 col-md-3">
+                            <div class="advantage__item">
+                                <img class="advantage__image" src="img/advantage_01.png" alt="">
+                                <div class="advantage__text">Гибкая система скидок</div>
                             </div>
-                        </li>
-                        <li>
-                            <div class="advantage__title">
-                                <span></span>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-3">
+                            <div class="advantage__item">
+                                <img class="advantage__image" src="img/advantage_02.png" alt="">
+                                <div class="advantage__text">Гарантия качества на товар и услуги</div>
                             </div>
-                        </li>
-                        <li>
-                            <div class="advantage__title">
-                                <span></span>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-3">
+                            <div class="advantage__item">
+                                <img class="advantage__image" src="img/advantage_03.png" alt="">
+                                <div class="advantage__text">Подбираем товар под задачи клиента</div>
                             </div>
-                        </li>
-
-                    </ul>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-3">
+                            <div class="advantage__item">
+                                <img class="advantage__image" src="img/advantage_04.png" alt="">
+                                <div class="advantage__text">
+                                    Укладываемся в бюджет
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <!-- Advantage End-->
 

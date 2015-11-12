@@ -1,5 +1,5 @@
 $color-gray     :   #738494;
-$color-blue     :   #0c80e5;
+$color-blue     :   #0d80e6;
 $color-light    :   #b7c8d8;
 $color-red      :   #ff415d;
 
@@ -119,8 +119,8 @@ nav ul {
     &:hover,
     &:focus,
     &.focus {
-        color: #0d80e6 !important;
-        border-color: #0d80e6 !important;
+        color: $color-blue !important;
+        border-color: $color-blue !important;
         background: #fff;
 
         &.btn-icon {
@@ -145,7 +145,7 @@ nav ul {
         &.btn-icon {
 
             .icon-bar {
-                background: #0d80e6;
+                background: $color-blue;
             }
         }
     }
@@ -171,9 +171,9 @@ nav ul {
 .btn-primary:active,
 .btn-primary.active,
 .open > .btn-primary.dropdown-toggle {
-    color: #0d80e6;
+    color: $color-blue;
     background: #fff;
-    border-color: #0d80e6 !important;
+    border-color: $color-blue !important;
 }
 
 

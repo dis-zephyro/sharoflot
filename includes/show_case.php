@@ -1,9 +1,11 @@
 <div class="filter">
     <div class="row">
         <div class="col-sm-4 col-md-4">
-            <select class="form-control select-style">
-                <option selected value="Спонсор">Хиты продаж</option>
-            </select>
+            <div class="select-style-blue">
+                <select class="form-control select-style">
+                    <option selected value="Спонсор">Хиты продаж</option>
+                </select>
+            </div>
         </div>
         <div class="hidden-xs hidden-sm col-md-3 text-right">
             <div class="btn-group" data-toggle="buttons">
@@ -36,7 +38,8 @@
                 </div>
                 <div class="col-sx-7 col-sm-7 col-md-7">
                     <select class="form-control select-style">
-                        <option selected value="Спонсор">новинки</option>
+                        <option selected value="Спонсор">Фильтр</option>
+                        <option value="Участник">новинки</option>
                         <option value="Участник">по цене</option>
                         <option value="Зритель">по цветам</option>
                         <option value="Зритель">по количеству</option>
